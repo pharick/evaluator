@@ -1,19 +1,19 @@
 # evaluator
 
-**Программа, вычисляющая простейшие арифметические выражения с целыми числами на С++.**
+**A program that evaluates simple arithmetic expressions with integers in C++.**
 
-## Основные особенности
+## Key Features
 
-- Поддерживает операторы +, -, \*, /, а также скобки для изменения приоритета операций
-- Учитывает приоритет операций
-- Не поддерживает дробных операндов, но правильно обрабатывает выражения с дробным результатом
-- При вычислении переводит выражение в обратную польскую нотацию
-- Печатает на экране подробный процесс вычисления выражения в обратной польской нотации
+- Supports operators +, -, \*, /, and parentheses to change the precedence of operations.
+- Takes into account the precedence of operations.
+- Does not support fractional operands but correctly handles expressions with fractional results.
+- Converts the expression into Reverse Polish Notation (RPN) before evaluation.
+- Prints a detailed process of evaluating the expression in RPN.
 
-## Сборка
+## Build
 
 make
 
-# Пример запуска
+# Example Run
 
 ./evaluate "8 + 21 * (6 / 3)"
